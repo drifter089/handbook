@@ -1,4 +1,4 @@
-# GitLab Handbook
+# Handbook
 
 ## Introduction
 
