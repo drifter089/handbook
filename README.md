@@ -118,12 +118,6 @@ This will start the hugo server on port 1313 and you'll be able to open a web br
 and go to [http://localhost:1313](http://localhost:1313) to see your local version
 of the handbook.
 
-### Generate the site locally
-
-It possible to generate the full site locally using Hugo.  You may sometimes
-need to do this if you are trying to debug the site for any reason. To build
-the site using Docker you use this command:
-
 ```sh
 docker run --rm -it -v $(pwd):/src -p 1313:1313 klakegg/hugo:0.111.3-ext-ubuntu-onbuild
 ```
